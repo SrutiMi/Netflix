@@ -18,23 +18,65 @@ body{
   fill: #e50914;
     
 }
+.remember-me{
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  padding-left: 0;
+}
+.checkbox-name{
+  display: flex;
+  align-items: center;
+}
+
 .container{
-  background-color: rgb(0, 0, 0,0.75);
-  padding: 60px 68px 40px 68px ;
+  
+  padding: 0px 100px 40px 68px ;
+  background-color: rgb(0, 0, 0, 0.75);
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   position: absolute;
-  top: 35%;
+  top: 40%;
   left: 45%;
   color: white;
   transform: translate(-50%, -50%);
   /* text-align: center; */
   max-width:200px ;
   width:100%;
+  font-family:"Netflix Sans",
+    "Helvetica Neue",
+    "Segoe UI",
+    "Roboto",
+    "Ubuntu",
+    sans-serif ;
+}
+input[type="checkbox"]:checked{
+  background-color: grey;
+  transform: scale(1.5);
+}
+.note{
+  font-size: 13px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #737373;
 }
 
+.sign-up a{
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+  border: none;
+}
+.sign-up a:hover{
+  
+  text-decoration: underline;
+}
+.learn-more a{
+  color: rgb(4, 43, 238);
+  text-decoration: none;
+}
 .remember-me{
   display: flex;
   /* padding: 20px; */
@@ -110,4 +152,56 @@ footer a{
    padding:15px 25px;
    background-color: rgb(0, 0, 0);
    color: white;
+}
+input[type="text"],
+input[type="password"]{
+  padding: 15px 60px;
+  background-color: #333;
+  font-family: "Netflix Sans",
+    "Helvetica Neue",
+    "Segoe UI",
+    "Roboto",
+    "Ubuntu",
+    sans-serif;
+    font-size: 16px; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+  margin-bottom: 10px;
+}
+input[type="text"],
+input[type="password"]:focus{
+    outline: none;
+}
+
+
+
+form{
+  display: flex;
+  flex-direction: column;
+  /* padding: 0px 50px; */
+}
+button{
+  padding: 15px 60px;
+  background-color: #e50914;
+  font-family: "Netflix Sans",
+    "Helvetica Neue",
+    "Segoe UI",
+    "Roboto",
+    "Ubuntu",
+    sans-serif;
+    font-size: 16px; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+form h1{
+  color: #f6f6f6;
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 28px;
+    filter: none;
+
 }
