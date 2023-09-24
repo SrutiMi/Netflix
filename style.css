@@ -1,0 +1,16 @@
+body{
+  margin:0;
+}
+.background{
+    position: relative;
+    filter: brightness(0.5);
+}
+
+.netflix-logo{
+  padding-top: 10px;
+  position:absolute;
+  top:0;
+  left:0;
+  width:29%;
+    
+}
