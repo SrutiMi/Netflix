@@ -16,11 +16,16 @@
     </div>
      <div class="container">
       <div class="element">
-        <form action="#">
+        <form >
           <h1>Sign In</h1><br>
-           <input type="text" placeholder="Email or phone number"><br>
-          <input type="password" placeholder="Password"><br>
-          <button>Sign In</button><br>
+           <input type="text" placeholder="Email or phone number" id="email-field">
+          <p class="email-field-err"> </p>
+           
+           
+          <input type="password" placeholder="Password" id="password-field">
+          <p class="password-field-err"></p>
+          <br>
+          <button class="submit">Sign In</button><br>
         </form>
         <div class="remember-me">
            <div class="checkbox-name"><input type="checkbox" id="checkbox">
@@ -58,7 +63,7 @@
       </footer>
   </div>
   
-  
+  <script src="script.js"></script>
   
 </body>
 </html>

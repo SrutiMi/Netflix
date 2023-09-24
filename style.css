@@ -173,8 +173,25 @@ input[type="text"],
 input[type="password"]:focus{
     outline: none;
 }
-
-
+.email-field-err{
+  margin-top: 0;
+  font-family:  "Helvetica Neue", "Segoe UI", "Roboto", "Ubuntu", sans-serif;
+  font-size: 14px;
+  color: #e87c03;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+.password-field-err{
+  margin-top: 0;
+  font-family: "Helvetica Neue", "Segoe UI", "Roboto", "Ubuntu", sans-serif;
+    font-size: 14px;
+    color: #e87c03;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.underline{
+  border-bottom: 1px solid #333;
+}
 
 form{
   display: flex;
